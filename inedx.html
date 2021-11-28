@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuM of even and odd digit </title>
+</head>
+<body>
+    <h2>sum of even and odd digits</h2>
+    <script>
+       var user = 10;
+       var sum =0;
+       for(var i = 1; i<= user; i++){
+           if(i%2 !== 0){
+               document.write(i+"<br>");
+               sum = sum + i;
+           }
+       } 
+       document.write("Total numbers of odd Number: " + sum);
+    </script>
+</body>
+</html>
